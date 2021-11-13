@@ -1,9 +1,9 @@
 import './App.css';
-import QuillEditorComponent from './components/RichTextEditors/QuillEditorComponent';
+import GoogleMapReactComponent from './components/GoogleMaps/GoogleMapReact';
 
 function App() {
   return (
-    <QuillEditorComponent />
+    <GoogleMapReactComponent />
   );
 }
 
