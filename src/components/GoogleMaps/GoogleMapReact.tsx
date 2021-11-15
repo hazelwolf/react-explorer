@@ -1,6 +1,5 @@
 import React from "react";
 import GoogleMapReact from "google-map-react"
-import MapMarker from "./Marker";
 
 /***
  * This component uses project https://github.com/google-map-react/google-map-react
@@ -21,9 +20,6 @@ const GoogleMapReactComponent = (props : any) : React.ReactElement => {
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-        <MapMarker>
-          
-        </MapMarker>
       </GoogleMapReact>
     </div>
     )
