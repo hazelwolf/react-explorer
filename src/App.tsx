@@ -1,9 +1,9 @@
 import './App.css';
-import GoogleMapReactComponent from './components/GoogleMaps/GoogleMapReact';
+import FiberSimpleDemo from './demos/three-fiber/three-fiber';
 
 function App() {
   return (
-    <GoogleMapReactComponent />
+    <FiberSimpleDemo />
   );
 }
 
